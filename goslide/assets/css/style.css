@@ -1,9 +1,14 @@
+@import "helpers.css";
 @import "header.css";
 @import "nav.css";
 @import "btn.css";
 @import "hero.css";
 @import "section.css";
 @import "info.css";
+@import "benefits.css";
+@import "tech-list.css";
+@import "random-text.css";
+@import "badge.css";
 
 :root {
     --primary: #2c3038;
@@ -41,6 +46,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {

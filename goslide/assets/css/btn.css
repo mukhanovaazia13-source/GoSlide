@@ -11,6 +11,9 @@
 
     background-color: var(--light);
     border-radius: 4.4rem;
+
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .btn-icon {
@@ -39,7 +42,7 @@
 
     background-color: var(--primary);
     border-radius: 6px;
-    box-shadow: 0 4px 15px rgba(44, 48m 56, 0.4);
+    box-shadow: 0 4px 15px rgba(44, 48 56, 0.4);
 
     font-size: 1.8rem;
     font-weight: 700;
